@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #06182a;
+    color: #ffffff;
+
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #176ff3;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter Variable', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+header h1 {
+    font-size: 20px;
+    color: #176ff3;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header nav {
+    margin-left: 2rem;
+}
+
+
+header nav a {
+    margin: 1rem;
+    text-decoration: none;
+
+}
+
+
+
+
+header button {
+    width: 6rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #0b3b5d;
+    color: #176ff3;
+    cursor: pointer;
+}
+
+
+
+.container-titulo {
+    display: block;
+    text-align: center;
+    margin: 1rem;
+}
+
+.container-titulo h2 {
+    font-size: 40px;
+}
+
+
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0;
+    margin: 1rem 0rem;
+
+}
+
+.search button {
+    display: none;
+}
+
+.search input {
+
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+
+main section{
+    margin: 0;
+    padding: 2rem 3rem;
+}
+
+select{
+    color: #cecdcd;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    margin-left: 0;
+    width: 12rem;
+}
+
+h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 2rem;
+    border: 1px solid #707070;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 80%;
+}
+
+article button{
+    background-color: #176ff3;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+small{
+    color: #707070;
+}
